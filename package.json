@@ -1,0 +1,26 @@
+{
+  "name": "usedmotor",
+  "version": "0.1.0",
+  "dependencies": {
+    "@babel/runtime": "^7.20.7",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.28.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "firebase": "^9.15.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.1.5",
+    "mongoose-paginate-v2": "^1.4.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node server/index.js",
+    "start": "node build/index.js"
+  }
+}
